@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>EyeComfort</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="logo-block">
+        <img src="icon.png" alt="EyeEase Icon" class="logo-icon">
+        <h2 class="logo-title">EyeComfort</h2>
+    </div>
+
+    <p class="description">Comfort your eyes while browsing</p>
+
+
+    <div class="sliders">
+        <div class="slider-group">
+            <i class="fas fa-sun"></i>
+            <input type="range" id="brightness" min="0" max="200" value="100">
+            <span class="slider-value" id="brightness-value">100</span>
+        </div>
+        <div class="slider-group">
+            <i class="fas fa-fire"></i>
+            <input type="range" id="warmth" min="0" max="100" value="0">
+            <span class="slider-value" id="warmth-value">0</span>
+        </div>
+        <div class="slider-group">
+            <i class="fas fa-adjust"></i>
+            <input type="range" id="contrast" min="50" max="150" value="100">
+            <span class="slider-value" id="contrast-value">100</span>
+        </div>
+        <div class="slider-group">
+            <i class="fas fa-font"></i>
+            <input type="range" id="text-size" min="0.5" max="1.5" value="1" step="0.1">
+            <span class="slider-value" id="text-size-value">1</span>
+        </div>
+    </div>
+
+    <button id="reset">Reset</button>
+
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

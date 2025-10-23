@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "EyeComfort",
+    "version": "1.0",
+    "description": "Adjust brightness, warmth, and text comfort for any website.",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

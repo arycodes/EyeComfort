@@ -15,7 +15,10 @@ EyeComfort is a Chrome extension designed to reduce eye strain while browsing. I
 ### Load as an unpacked extension:
 
 1. Clone this repository:
-   git clone [https://github.com/arycodes/EyeComfort.git](https://github.com/arycodes/EyeComfort.git)
+```bash
+   git clone https://github.com/arycodes/EyeComfort.git
+   
+```
 2. Open Chrome and navigate to `chrome://extensions/`.
 3. Enable **Developer mode** (top right corner).
 4. Click **Load unpacked** and select the cloned folder.
@@ -28,7 +31,7 @@ EyeComfort is a Chrome extension designed to reduce eye strain while browsing. I
 
 ## Folder Structure
 
-```
+```bash
 EyeComfort/
 │
 ├── manifest.json
